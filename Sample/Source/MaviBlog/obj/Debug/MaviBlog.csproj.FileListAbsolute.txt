@@ -1,0 +1,10 @@
+C:\Development\OpenSource\MaviBlog\Source\MaviBlog\bin\Debug\MaviBlog.dll
+C:\Development\OpenSource\MaviBlog\Source\MaviBlog\bin\Debug\MaviBlog.pdb
+C:\Development\OpenSource\MaviBlog\Source\MaviBlog\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\OpenSource\MaviBlog\Source\MaviBlog\obj\Debug\MaviBlog.dll
+C:\Development\OpenSource\MaviBlog\Source\MaviBlog\obj\Debug\MaviBlog.pdb
+C:\Development\OpenSource\machine.specifications\Sample\Source\MaviBlog\bin\Debug\MaviBlog.dll
+C:\Development\OpenSource\machine.specifications\Sample\Source\MaviBlog\bin\Debug\MaviBlog.pdb
+C:\Development\OpenSource\machine.specifications\Sample\Source\MaviBlog\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\OpenSource\machine.specifications\Sample\Source\MaviBlog\obj\Debug\MaviBlog.dll
+C:\Development\OpenSource\machine.specifications\Sample\Source\MaviBlog\obj\Debug\MaviBlog.pdb
