@@ -114,6 +114,60 @@ function toggleVisibility(id, description) {
 <hr>
 <h2 class="concern">Specification Runner specifications&nbsp;&nbsp;&nbsp;&nbsp;</h2><h3><span class="count">25 contexts, 61 specifications</span></h3>
 
+<h3 class="context">when running a context with specifications in a behavior&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
+	<li>should run the behavior spec</li>
+</ul>
+
+
+<h3 class="context">when running a context with specifications in a behavior where the behavior field is ignored&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
+	<li>should not run the behavior spec</li>
+</ul>
+
+
+<h3 class="context">when running a context with specifications in a behavior where the behavior is ignored&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
+	<li>should not run the behavior spec</li>
+</ul>
+
+
+<h3 class="context">when running a context with specifications in a behavior where the behavior specs are ignored&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
+	<li>should not run the behavior spec</li>
+</ul>
+
+
+<h3 class="context">when running a context with nested behaviors&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
+	<li>should print the type containing the nested behaviors</li>
+</ul>
+
+
+<h3 class="context">when running a context with behaviors that do not have the behaviors attribute&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
+	<li>should print the type missing the attribute</li>
+</ul>
+
+
+<h3 class="context">when running a context with behaviors with establish&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
+	<li>should print the behaviors with the establish</li>
+</ul>
+
+
+<h3 class="context">when running a context with behaviors with because&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
+	<li>should print the behaviors with the because</li>
+</ul>
+
+
+<h3 class="context">when running a context with inherited specifications&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">4 specifications</span></h4><ul>	<li>should establish the context once</li>
+	<li>should invoke the because clause once</li>
+	<li>should invoke the because clause from the base class once</li>
+	<li>should detect two specs</li>
+</ul>
+
+
+<h3 class="context">when running a context with inherited specifications and setup once per attribute&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">4 specifications</span></h4><ul>	<li>should establish the context twice</li>
+	<li>should invoke the because clause twice</li>
+	<li>should invoke the because clause from the base class twice</li>
+	<li>should detect two specs</li>
+</ul>
+
+
 <h3 class="context">when running a context with no specifications&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">3 specifications</span></h4><ul>	<li>should not establish the context</li>
 	<li>should not cleanup</li>
 	<li>should not perform assembly wide cleanup</li>
@@ -193,60 +247,6 @@ function toggleVisibility(id, description) {
 	<li>should run tagged global cleanup</li>
 	<li>should run tagged result supplementer</li>
 	<li>should run untagged result supplementer</li>
-</ul>
-
-
-<h3 class="context">when running a context with specifications in a behavior&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
-	<li>should run the behavior spec</li>
-</ul>
-
-
-<h3 class="context">when running a context with specifications in a behavior where the behavior field is ignored&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
-	<li>should not run the behavior spec</li>
-</ul>
-
-
-<h3 class="context">when running a context with specifications in a behavior where the behavior is ignored&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
-	<li>should not run the behavior spec</li>
-</ul>
-
-
-<h3 class="context">when running a context with specifications in a behavior where the behavior specs are ignored&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should run the context spec</li>
-	<li>should not run the behavior spec</li>
-</ul>
-
-
-<h3 class="context">when running a context with nested behaviors&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
-	<li>should print the type containing the nested behaviors</li>
-</ul>
-
-
-<h3 class="context">when running a context with behaviors that do not have the behaviors attribute&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
-	<li>should print the type missing the attribute</li>
-</ul>
-
-
-<h3 class="context">when running a context with behaviors with establish&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
-	<li>should print the behaviors with the establish</li>
-</ul>
-
-
-<h3 class="context">when running a context with behaviors with because&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">2 specifications</span></h4><ul>	<li>should fail</li>
-	<li>should print the behaviors with the because</li>
-</ul>
-
-
-<h3 class="context">when running a context with inherited specifications&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">4 specifications</span></h4><ul>	<li>should establish the context once</li>
-	<li>should invoke the because clause once</li>
-	<li>should invoke the because clause from the base class once</li>
-	<li>should detect two specs</li>
-</ul>
-
-
-<h3 class="context">when running a context with inherited specifications and setup once per attribute&nbsp;&nbsp;&nbsp;&nbsp;</h3><h4><span class="count">4 specifications</span></h4><ul>	<li>should establish the context twice</li>
-	<li>should invoke the because clause twice</li>
-	<li>should invoke the because clause from the base class twice</li>
-	<li>should detect two specs</li>
 </ul>
 
 <hr>
